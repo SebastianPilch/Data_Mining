@@ -1,0 +1,54 @@
+{
+  'business_status': 'OPERATIONAL',
+  'geometry': {
+    'location': {
+      'lat': 52.2218391,
+      'lng': 21.0191071
+    },
+    'viewport': {
+      'northeast': {
+        'lat': 52.2232589302915,
+        'lng': 21.0205303802915
+      },
+      'southwest': {
+        'lat': 52.2205609697085,
+        'lng': 21.01783241970849
+      }
+    }
+  },
+  'icon': 'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png',
+  'icon_background_color': '#FF9E67',
+  'icon_mask_base_uri': 'https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet',
+  'name': 'Dyspensa. Restauracja',
+  'opening_hours': {
+    'open_now': True
+  },
+  'photos': [
+    {
+      'height': 2153,
+      'html_attributions': [
+        '<a href="https://maps.google.com/maps/contrib/109145483442997130266">Dyspensa. Restauracja</a>'
+      ],
+      'photo_reference': 'AdCG2DOXAnvLWpdVYN3T5WLz2OJL_tNzbXyKgjbbDOue7TDcCpjyCYuzRRcvR9XIZi4R5xnvCzA0VDRMCIn1gzp53Z3pxGt7UaOq-aaHt9kAH-FglbzpUs5zWL2rC956rdnQS54sg2e9_FMIpCSHHiQBV7Q_7D9PO-sZ-E1cFH5YcsOCVB3M',
+      'width': 3830
+    }
+  ],
+  'place_id': 'ChIJUYc7fOXMHkcRc0mzGPP6chc',
+  'plus_code': {
+    'compound_code': '62C9+PJ Warsaw, Poland',
+    'global_code': '9G4362C9+PJ'
+  },
+  'price_level': 4,
+  'rating': 4.4,
+  'reference': 'ChIJUYc7fOXMHkcRc0mzGPP6chc',
+  'scope': 'GOOGLE',
+  'types': [
+    'restaurant',
+    'bar',
+    'food',
+    'point_of_interest',
+    'establishment'
+  ],
+  'user_ratings_total': 561,
+  'vicinity': 'Mokotowska 33/35, Warszawa'
+}

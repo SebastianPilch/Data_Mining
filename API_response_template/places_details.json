@@ -1,0 +1,309 @@
+{
+  'address_components': [
+    {
+      'long_name': '2',
+      'short_name': '2',
+      'types': [
+        'street_number'
+      ]
+    },
+    {
+      'long_name': 'plac Powstańców Warszawy',
+      'short_name': 'plac Powstańców Warszawy',
+      'types': [
+        'route'
+      ]
+    },
+    {
+      'long_name': 'Śródmieście',
+      'short_name': 'Śródmieście',
+      'types': [
+        'sublocality_level_1',
+        'sublocality',
+        'political'
+      ]
+    },
+    {
+      'long_name': 'Warszawa',
+      'short_name': 'Warszawa',
+      'types': [
+        'locality',
+        'political'
+      ]
+    },
+    {
+      'long_name': 'Powiat Warszawa',
+      'short_name': 'Powiat Warszawa',
+      'types': [
+        'administrative_area_level_2',
+        'political'
+      ]
+    },
+    {
+      'long_name': 'Województwo mazowieckie',
+      'short_name': 'Województwo mazowieckie',
+      'types': [
+        'administrative_area_level_1',
+        'political'
+      ]
+    },
+    {
+      'long_name': 'Poland',
+      'short_name': 'PL',
+      'types': [
+        'country',
+        'political'
+      ]
+    },
+    {
+      'long_name': '00-030',
+      'short_name': '00-030',
+      'types': [
+        'postal_code'
+      ]
+    }
+  ],
+  'adr_address': '<span class="street-address">plac Powstańców Warszawy 2</span>, <span class="postal-code">00-030</span> <span class="locality">Warszawa</span>, <span class="country-name">Poland</span>',
+  'business_status': 'OPERATIONAL',
+  'current_opening_hours': {
+    'open_now': True,
+    'periods': [
+      {
+        'close': {
+          'date': '2024-10-23',
+          'day': 3,
+          'time': '2359',
+          'truncated': True
+        },
+        'open': {
+          'date': '2024-10-17',
+          'day': 4,
+          'time': '0000',
+          'truncated': True
+        }
+      }
+    ],
+    'weekday_text': [
+      'Monday: Open 24 hours',
+      'Tuesday: Open 24 hours',
+      'Wednesday: Open 24 hours',
+      'Thursday: Open 24 hours',
+      'Friday: Open 24 hours',
+      'Saturday: Open 24 hours',
+      'Sunday: Open 24 hours'
+    ]
+  },
+  'editorial_summary': {
+    'language': 'en',
+    'overview': 'Down-to-earth rooms & suites in a casual property featuring a spa, a restaurant & a bar.'
+  },
+  'formatted_address': 'plac Powstańców Warszawy 2, 00-030 Warszawa, Poland',
+  'formatted_phone_number': '22 582 91 00',
+  'geometry': {
+    'location': {
+      'lat': 52.23396159999999,
+      'lng': 21.0145625
+    },
+    'viewport': {
+      'northeast': {
+        'lat': 52.2355589302915,
+        'lng': 21.0158533302915
+      },
+      'southwest': {
+        'lat': 52.2328609697085,
+        'lng': 21.0131553697085
+      }
+    }
+  },
+  'icon': 'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png',
+  'icon_background_color': '#909CE1',
+  'icon_mask_base_uri': 'https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet',
+  'international_phone_number': '+48 22 582 91 00',
+  'name': 'Hotel Gromada',
+  'opening_hours': {
+    'open_now': True,
+    'periods': [
+      {
+        'open': {
+          'day': 0,
+          'time': '0000'
+        }
+      }
+    ],
+    'weekday_text': [
+      'Monday: Open 24 hours',
+      'Tuesday: Open 24 hours',
+      'Wednesday: Open 24 hours',
+      'Thursday: Open 24 hours',
+      'Friday: Open 24 hours',
+      'Saturday: Open 24 hours',
+      'Sunday: Open 24 hours'
+    ]
+  },
+  'photos': [
+    {
+      'height': 1368,
+      'html_attributions': [
+        '<a href="https://maps.google.com/maps/contrib/113205971428043733001">Hotel Gromada Centrum w Warszawie</a>'
+      ],
+      'photo_reference': 'AdCG2DNZuaZPj9lSIXS4P_PAb4Uvoh0k3Q2udygMR0mWrdADxXI2i45XMl4y_-cnJW-f-87iX__-btWVXC4oKUudj0BYt_DMOepl7T3ST6D2U3B8GBuUTUayNMjDEXIR7jyIk9dcgaNffJ7M3B_WUsmMSQ6nLwri5lDeQmc6MDsVCgvoyB6z',
+      'width': 1824
+    },
+    {
+      'height': 1100,
+      'html_attributions': [
+        '<a href="https://maps.google.com/maps/contrib/113205971428043733001">Hotel Gromada Centrum w Warszawie</a>'
+      ],
+      'photo_reference': 'AdCG2DPwmJUvKYyEV2Mq77ZRxZ2ipDFpGEyT3UMHjJ2yj3URpkNECsSjTJtC8QraqvX-jGJXhnsY1WmIx-5wu6ntdWQ4D69iXiqH9htpck826enjLdl-1sJ-ggG9isIogx7kdWU2gr_5gVtCDU2XB9-8NVPkEDxODV2LOyFDK0tSQWYMvAoS',
+      'width': 1650
+    },
+    {
+      'height': 2000,
+      'html_attributions': [
+        '<a href="https://maps.google.com/maps/contrib/113205971428043733001">Hotel Gromada Centrum w Warszawie</a>'
+      ],
+      'photo_reference': 'AdCG2DOTQpvmAxvdukyhAP5DQorsSh5EjP-0gS61OrD_KJOkJE7cWbTMkY-xm0PeFNwvNW_nYzg7sQfsT6EPIt_30CWV4HlRbhuIAiR4LKN8bZhKZDb5-LJekJjNNBjrdzIrl7A8JSlvNv1B7t7m9GEb1DqIoiX2Jpev5N3TuSiW3UEF9eST',
+      'width': 3000
+    },
+    {
+      'height': 2670,
+      'html_attributions': [
+        '<a href="https://maps.google.com/maps/contrib/113205971428043733001">Hotel Gromada Centrum w Warszawie</a>'
+      ],
+      'photo_reference': 'AdCG2DOaGmweowVwjmbC-pozyPxL_E3TBT1Lk-u5E3-8DTpmxhtVCsGgvxsX_jDC7VNDUHZH6jFi2y8WeYfEqg0E4P5PF-jZ-9Z9eyRE7L7sfwoAC1T_v6_ACHeEw-Gaw0bgT1POl5M7LSKGk1dexAAPTkNCjKQkDTrWQTkRixf9nc5c_v4Y',
+      'width': 4000
+    },
+    {
+      'height': 2000,
+      'html_attributions': [
+        '<a href="https://maps.google.com/maps/contrib/113205971428043733001">Hotel Gromada Centrum w Warszawie</a>'
+      ],
+      'photo_reference': 'AdCG2DOlEQF8o9PQ8NLoBBGUbdhcM2Wqe2GZLmUrusnCie-WfDEbdqxPf5nTY0YWAuAs3ezNBSgL9vHuIb_8-CBXw5-NHrvcLf7SWpXaV4qVQbsPtLZD3FuagC1d4F7RM5hcT1z-CKFpOFSLvAg21skwHxnSmht-qawIr3NS9moBnHkreykN',
+      'width': 3000
+    },
+    {
+      'height': 744,
+      'html_attributions': [
+        '<a href="https://maps.google.com/maps/contrib/113205971428043733001">Hotel Gromada Centrum w Warszawie</a>'
+      ],
+      'photo_reference': 'AdCG2DPblT_cGU22YIRuSizELWgG1drOvGlMwtPvficXppKuT3ijXDwcTdiXWzCB4WQrbmFn6f8sWd3-P8PYnEypSNa1xnWpgXNWpZlDS3_SEUIGKigxme30qlct4528utLP81Hs_XmYYXRVxgJq0FXtBsPTVPXsY2FAsZYZeQqViwPHoBjg',
+      'width': 744
+    },
+    {
+      'height': 3491,
+      'html_attributions': [
+        '<a href="https://maps.google.com/maps/contrib/113205971428043733001">Hotel Gromada Centrum w Warszawie</a>'
+      ],
+      'photo_reference': 'AdCG2DOG3VNyBq1uC_zf33SFBT1ZBBnVYot4dDQidiD0Mnw77nS_iJPkZGL9pMnDgclmAu3YjGYJCb2ZknHWYRnPkRQSpZ-M2ertI6HQbkCwIDMotxsInkPPX9G9QFrGRbuHK_5_UJOvljIMLrqfmaEHhW_dI4u_N_Qo1-sqaQS_QIloWIMS',
+      'width': 5235
+    },
+    {
+      'height': 2016,
+      'html_attributions': [
+        '<a href="https://maps.google.com/maps/contrib/113205971428043733001">Hotel Gromada Centrum w Warszawie</a>'
+      ],
+      'photo_reference': 'AdCG2DOG9JQ1re3xDBg_vJjCuNR4jKStkK5wkpRDh70Ac-RP3aKutP8y0g4UK5Kvc7tPyy_g0AxUt978-cUw41U1oknjBGfYfOoIxGtYYCxsAYg6Tlb6n6Nkg1V9l5P-7DWitt7Pr8wg_41YeCpcDXB-5xF57xEiOKa01cxbhVA7cdEECVei',
+      'width': 3028
+    },
+    {
+      'height': 3024,
+      'html_attributions': [
+        '<a href="https://maps.google.com/maps/contrib/113205971428043733001">Hotel Gromada Centrum w Warszawie</a>'
+      ],
+      'photo_reference': 'AdCG2DPBQnHIY-Y8-8axRJ1izqw4HcGAvqZyBnjD8cU11w2FAfMOnLtrxmVkgF-qI4UKkJW91kB6w96jHHmft_HqDN_HJTzfVMukQT5p89aQo6W-jLgcdCTQiPyg4ph0oGB9rQA4AU4kak44ufx1zmmyQLwwiwLA9gq-pKsvmayIlbm_wr0X',
+      'width': 4032
+    },
+    {
+      'height': 3024,
+      'html_attributions': [
+        '<a href="https://maps.google.com/maps/contrib/113205971428043733001">Hotel Gromada Centrum w Warszawie</a>'
+      ],
+      'photo_reference': 'AdCG2DMP6yPGq9qWIYqhuKT1wzEQAwNDC6O6Vzms_EySV9TvGb8AML85CxOIr_e7wX3OMvboT6bwBkLVFgq-S2wOlpnowgNnxoSIFTpvvHtzyjXnI8eEFnJCLZ8RUefomYz-boCDbgnpiydV8UDRdShDJb56dHh0VYQQGpWj6qm5uU6zXQ94',
+      'width': 4032
+    }
+  ],
+  'place_id': 'ChIJoToG_fTMHkcRvnEOTBVeaVw',
+  'plus_code': {
+    'compound_code': '62M7+HR Warsaw, Poland',
+    'global_code': '9G4362M7+HR'
+  },
+  'rating': 4,
+  'reference': 'ChIJoToG_fTMHkcRvnEOTBVeaVw',
+  'reviews': [
+    {
+      'author_name': 'Gerald Tomyn',
+      'author_url': 'https://www.google.com/maps/contrib/113075304307943064666/reviews',
+      'language': 'en',
+      'original_language': 'en',
+      'profile_photo_url': 'https://lh3.googleusercontent.com/a-/ALV-UjVDogTu3jVrU6kX_jU5GaJ3oHNUGFyZ70crto9vnP5AxLZkn6IH=s128-c0x00000000-cc-rp-mo-ba4',
+      'rating': 5,
+      'relative_time_description': '3 months ago',
+      'text': "This hotel is a welcome sight when staying in Warsaw. The rooms are big and comfortable. Rooms are air conditioned also. The shower is big and the water is hot. The breakfast is very good. Service is efficient.\n\nOne small complaint about the shower: there is no door, so the water gets out onto the floor of the bathroom. Also no shelf inside the shower itself so nowhere to put things.\n\nOverall this is the best hotel I've stayed at in Poland.",
+      'time': 1720940721,
+      'translated': False
+    },
+    {
+      'author_name': 'Richard Wilson',
+      'author_url': 'https://www.google.com/maps/contrib/116576266504116547064/reviews',
+      'language': 'en',
+      'original_language': 'en',
+      'profile_photo_url': 'https://lh3.googleusercontent.com/a/ACg8ocL18J_XpiO6GrrzEZv6GC14_R8SMnS85lPczGZ11qNRbR3Lig=s128-c0x00000000-cc-rp-mo-ba3',
+      'rating': 5,
+      'relative_time_description': '2 weeks ago',
+      'text': 'I spent two nights here with my partner. The room that we were allocated was massive, with a separate living area, bedroom, bathroom/toilet, and another separate toilet. The beds were comfortable, and although there was no air-conditioning, the room temperature could be easily varied by opening the various windows in a slanted position.\n\nOur room rate was very reasonable and included breakfast, which had a wide variety of cooked and cold dishes.\n\nThe hotel itself is well positioned in relation to public transport and the old town. I only had two minor niggles, the first being the shower, which sat over a bathtub with a curtain. It was impossible to stand up and shower because of the positioning of the head. Second, there was a large amount of roadwork activity outside, and the workmen started before 6 a.m.\n\nDespite these niggles, I would still highly recommend this hotel for its value for money and location.',
+      'time': 1727428127,
+      'translated': False
+    },
+    {
+      'author_name': 'Irina Bosin',
+      'author_url': 'https://www.google.com/maps/contrib/104721585310177569539/reviews',
+      'language': 'en',
+      'original_language': 'en',
+      'profile_photo_url': 'https://lh3.googleusercontent.com/a-/ALV-UjWGjdPM2VsrscXY5wI0LmmJtqmuq4EGeHQZ06kSxmIt3PObda25NA=s128-c0x00000000-cc-rp-mo-ba4',
+      'rating': 4,
+      'relative_time_description': '3 months ago',
+      'text': "Certainly! Here's the updated review:\n\n---\n\nThe hotel's location is excellent, and the rooms are spacious. However, there is an unmistakable smell of old age throughout the premises. The immigrant staff members are polite and accommodating, but the Polish staff are not. You will experience a lot of negativity if you don't speak Polish, even if you know four other languages. Also, make sure to bring your own shampoo and other toiletries, as they are not provided.",
+      'time': 1719912944,
+      'translated': False
+    },
+    {
+      'author_name': 'Maggie Cheung',
+      'author_url': 'https://www.google.com/maps/contrib/107330493394600956390/reviews',
+      'language': 'en',
+      'original_language': 'en',
+      'profile_photo_url': 'https://lh3.googleusercontent.com/a/ACg8ocKB6SewfhxiqwR2aNU5EiA2VlfAvYCcszevPXcuweMkJicVvg=s128-c0x00000000-cc-rp-mo-ba5',
+      'rating': 5,
+      'relative_time_description': 'a week ago',
+      'text': 'Very nice room. Great price.\nWas a half an hour walk to old town.\n\nOur room had a separate living area, large windows throughout and a second wc',
+      'time': 1728068852,
+      'translated': False
+    },
+    {
+      'author_name': 'Tobias Stormly',
+      'author_url': 'https://www.google.com/maps/contrib/105686423497328974558/reviews',
+      'language': 'en',
+      'original_language': 'en',
+      'profile_photo_url': 'https://lh3.googleusercontent.com/a-/ALV-UjW11-w5giH_HLAkksITvLqsnlvujZSjui8tcHmUYdMG7BViThZLMA=s128-c0x00000000-cc-rp-mo-ba2',
+      'rating': 2,
+      'relative_time_description': '2 months ago',
+      'text': 'Good location.\nThey were shot ng a movie while we where there and there was road works which was annoying.\nThe toilets in the rooms are good, and the hotel bar is also good.\nBut the bedrooms are very old and needs renovation, also the elevator was slow and often congested due to the lack of there only being one.',
+      'time': 1723203750,
+      'translated': False
+    }
+  ],
+  'types': [
+    'bar',
+    'lodging',
+    'store',
+    'restaurant',
+    'food',
+    'point_of_interest',
+    'establishment'
+  ],
+  'url': 'https://maps.google.com/?cid=6658956969607328190',
+  'user_ratings_total': 4740,
+  'utc_offset': 120,
+  'vicinity': 'plac Powstańców Warszawy 2, Warszawa',
+  'website': 'http://www.gromada.pl/',
+  'wheelchair_accessible_entrance': True
+}
