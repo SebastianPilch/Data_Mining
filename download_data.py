@@ -127,14 +127,41 @@ import requests
 import time
 
 # API Key
-api_key = 'YOUR_API_KEY'
+api_key = 'AIzaSyAT6xnSxPZplkntp4mJ6J85Ght2dNL7Cfc'
 
-# Parameters (locations, radius, etc.)
 locations_coords = {
     'Warszawa_1': '52.23826076856302, 21.0143568111989',
     'Wrocław_1': '51.11382193775396, 17.0504448170807',
     'Kraków_1': '50.052966874438944, 19.930917730622067',
-    # Add remaining cities...
+    'Poznań_1': '52.4180113885816, 16.930477109251644',
+    'Gdańsk_1': '54.35819539008235, 18.6387006461402',
+    'Łódź_1': '51.75447593812657, 19.452593618100373',
+    'Katowice_1': '50.24951373713728, 19.016395412089288',
+    'Lublin_1': '51.25270823532197, 22.57774918110887',
+    'Bydgoszcz_1': '53.12806279543401, 18.01066256884164',
+    'Szczecin_1': '53.42451829070773, 14.53954083535824',
+    'Białystok_1': '53.1325, 23.1688',
+    'Rzeszów_1': '50.0413, 21.999',
+    'Torun': '53.0138, 18.5984',
+    'Częstochowa': '50.8113, 19.1203',
+    'Zamość': '50.7214, 23.2515',
+    'Gdynia': '54.5189, 18.5305',
+    'Zielona Góra': '51.9356, 15.5062',
+    'Gorzów Wielkopolski': '52.7325, 15.2384',
+    'Olsztyn': '53.7784, 20.4801',
+    'Zakopane': '49.2992, 19.9496',
+    'Płock': '52.5463, 19.7065',
+    'Opole': '50.6751, 17.9213',
+    'Radom': '51.4024, 21.1471',
+    'Kielce': '50.8661, 20.6286',
+    'Inowrocław': '52.7983, 18.2635',
+    'Elbląg': '54.1522, 19.4088',
+    'Grudziądz': '53.485, 18.7534',
+    'Piła': '53.1504, 16.7384',
+    'Gniezno': '52.5347, 17.5823',
+    'Sandomierz': '50.6826, 21.7491',
+    'Kazimierz Dolny': '51.3246, 21.9515',
+    'Tarnów': '50.0124, 20.9889'
 }
 
 radius = 10000
@@ -163,10 +190,9 @@ places_df = pd.read_csv(places_csv_file_path) if pd.io.common.file_exists(places
 review_df = pd.read_csv(review_csv_file_path) if pd.io.common.file_exists(review_csv_file_path) else pd.DataFrame(columns=review_headers)
 
 for city in locations_coords:
-    url = f"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={locations_coords[city]}&radius={radius}&type={place_type}&key={api_key}"
+    url = f"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={locations_coords[city]}&radius={radius}&type=restaurant&keyword=cuisine&key={api_key}"
     response = requests.get(url)
     places = response.json()
-    print(places['results'])
 
     # Process each place
     if 'results' in places:
