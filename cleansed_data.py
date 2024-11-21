@@ -41,4 +41,4 @@ df.head()
 
 df['text'] = df['text'].apply(clean_data)
 
-df.to_csv('clensed_reviews.csv',index=False)
+df.to_csv('cleansed_reviews.csv',index=False)
