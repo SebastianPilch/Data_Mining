@@ -2,17 +2,16 @@ import random
 import pandas as pd
 
 
-def generate_comment(adjectives_pos, adjectives_neg, nouns, sentiment):
+def generate_comment(adjectives_pos, adjectives_neg, nouns):
     """Generates random comments for food, service, and atmosphere."""
-    if sentiment == "positive":
+    sentiment = random.choices(["Negative", "Positive"], weights=[0.8, 0.2])[0]
+    if sentiment == "Positive":
         adj = random.choice(adjectives_pos)
         comment = f"The {nouns} was {adj}."
-    elif sentiment == "negative":
+    else:
         adj = random.choice(adjectives_neg)
         comment = f"The {nouns} was {adj}."
-    else:
-        comment = f"No opinion on the {nouns}."
-    return comment
+    return comment, sentiment
 
 
 # Load and filter dataset
@@ -40,9 +39,9 @@ for aspect in ["food", "service", "atmosphere"]:
     none_indices = df[df[aspect].isnull()].index
 
     for idx in none_indices:
-        negative_comment = generate_comment(adjectives_positive, adjectives_negative, aspect, "Negative")
-        df.at[idx, "text"] = f"{df.at[idx, 'text']} {negative_comment}".strip()
-        df.at[idx, aspect] = "Negative"
+        generated_comment, sentiment = generate_comment(adjectives_positive, adjectives_negative, aspect)
+        df.at[idx, "text"] = f"{df.at[idx, 'text']} {generated_comment}".strip()
+        df.at[idx, aspect] = sentiment
 
 # Reset the index again
 df.reset_index(drop=True, inplace=True)
