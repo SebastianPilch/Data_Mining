@@ -7,9 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/1KFN6VtDwkninXlQSoVKpa6wDgUczm4r9
 """
 
-!pip install emoji
-
-!pip install contractions
+# !pip install emoji
+#
+# !pip install contractions
 
 import pandas as pd
 import re
